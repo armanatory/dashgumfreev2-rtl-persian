@@ -92,41 +92,38 @@ body
 /* header */
 /* ################################################################## */
 
-header .sidebar-toggle-box, header .logo
-{
+header .sidebar-toggle-box, header .logo{
 	float: right;
 }
-header .top-menu ul
-{
+header .top-menu ul{
  	float: left !important;
 }
-header #top_menu
-{
+header #top_menu{
  	float: right; !important;
 }
 
-header .sidebar-toggle-box
-{
+header .sidebar-toggle-box{
 	padding-left: 15px;
 	padding-right: 0px;
 }
 
 
-.dropdown-menu
-{
+.dropdown-menu{
 	float: right;
 	right: 0px;
 	text-align: right;
 }
-.notify-arrow
-{
+.notify-arrow{
 	right: 20px;
 	left: 0px;
 }
 
-ul.top-menu > li > .logout
-{
+ul.top-menu > li > .logout{
 	font-size: 15px;
+}
+
+.dropdown-menu.inbox li a .subject .time {
+	position: relative;
 }
 
 /* ################################################################## */
