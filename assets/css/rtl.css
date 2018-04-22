@@ -172,12 +172,12 @@ aside li a span
 #main-content
 {
 	margin-right: 210px;
-	margin-left: 0px;
+	margin-left: 0px !important;
 }
 .sidebar-closed #main-content
 {
-	margin-right: 0px;
-	margin-left: 0px;
+	margin-right: 0px !important;
+	margin-left: 0px !important;
 }
 
 /* ################################################################## */
